@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#C0C0C0;
+}
+.parent-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+}
+.parent-box img{
+    width: 200px;
+    border-radius: 6px;
+}
+ .login-box{
+    margin-top: 10px auto 15px auto;
+    width: 500px;
+    padding: 30px 10px;
+    text-align:center ;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+.email{
+   display: block;
+   background-color: antiquewhite;
+   margin: 20px auto;
+   padding: 15px 10px;
+   width: 400px;
+   font-weight: bold;
+ }
+ .log-btn{
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: #0437F2;
+    display: block;
+    margin: 0px auto;
+    padding: 15px 10px;
+    width: 400px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .password{
+    text-decoration: none;
+    width: 400px;
+    display: block;
+    margin: 0px auto 10px auto;
+    color: rgb(6, 40, 211);
+    font-family: 'Segoe UI';
+ }
+ hr{
+    border-top: 1px solid #7393B3;
+ }
+ .new_btn{
+    text-decoration: none;
+    color: white;
+    background-color: #008000;
+    display: block;
+    margin: 10px auto;
+    padding: 15px 10px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
